@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import illustration from "../assets/illustration.png";   // adjust "../" if path differs
+import illustration from "../assets/Illustration.png";   // filename uses capital 'I'
 
 
 export default function LandingPage() {
