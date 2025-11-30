@@ -46,7 +46,7 @@ export default function ManagerDashboard() {
   ]);
   const [loading, setLoading] = useState(true);
 
-  const BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
+  const BASE = import.meta.env.VITE_API_BASE || "https://employee-attendance-system-backend-zcs2.onrender.com";
   function getAuthHeader() {
     const token = localStorage.getItem("token");
     return token ? { Authorization: `Bearer ${token}` } : {};

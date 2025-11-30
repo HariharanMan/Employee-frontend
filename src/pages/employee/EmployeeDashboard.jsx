@@ -15,7 +15,7 @@ export default function EmployeeDashboard() {
   const [summary, setSummary] = useState({ present: 0, absent: 0, late: 0, totalHours: 0 });
   const [loading, setLoading] = useState(true);
 
-  const BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
+  const BASE = import.meta.env.VITE_API_BASE || "https://employee-attendance-system-backend-zcs2.onrender.com";
 
   function getAuthHeader() {
     const token = localStorage.getItem("token");

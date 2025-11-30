@@ -1,7 +1,7 @@
 // src/api/managerApi.js
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_BASE || 'http://localhost:5000';
+const BASE_URL = process.env.REACT_APP_API_BASE || 'https://employee-attendance-system-backend-zcs2.onrender.com';
 
 const api = axios.create({
   baseURL: `${BASE_URL}/api`,

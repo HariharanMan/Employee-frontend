@@ -16,7 +16,7 @@ export default function Login() {
     try {
       // 🔥 BACKEND LOGIN API CALL
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://employee-attendance-system-backend-zcs2.onrender.com/api/auth/login",
         {
           email: form.email,
           password: form.password,

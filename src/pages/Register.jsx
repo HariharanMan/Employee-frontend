@@ -25,7 +25,7 @@ export default function Register() {
     try {
       // 🔥 BACKEND REGISTER API CALL ADDED HERE
       const res = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://employee-attendance-system-backend-zcs2.onrender.com/api/auth/register",
         userData
       );
 
